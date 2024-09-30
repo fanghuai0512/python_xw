@@ -1,0 +1,36 @@
+task_token: 974591bc2cbe41ca85ecc784ec09d341
+
+proxy_config:
+  proxy:
+  host:
+  port:
+  username:
+  password:
+
+redis_config:
+  host: 121.37.97.10
+  port: 6371
+  password: FHlove123
+  db: 7
+
+product_redis_key: MongoData
+
+mongodb_config:
+  client_url: mongodb://root:VPnBp6nBAtvD0hfR@121.37.97.10:27018
+  auth: admin
+  host: 121.37.97.10
+  port: 27018
+  db: collect
+  username: root
+  pwd: VPnBp6nBAtvD0hfR
+  collect: collect_amazon_product_dev
+
+mysql_config:
+  host: 121.37.97.10
+  port: 3306
+  user: oms
+  password: iXZ2mKcz7abMiS7M
+  database: oms
+  charset: utf8mb4
+  pool_size: 5
+  table_name: tb_monitor_product_log
